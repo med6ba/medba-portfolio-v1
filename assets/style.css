@@ -1,0 +1,18 @@
+:root {
+  --brown-50: #f8f6ee;
+  --brown-100: #ede8d4;
+  --brown-200: #dcd0ac;
+  --brown-300: #c8b27c;
+  --brown-400: #b79858;
+  --brown-500: #a8854a;
+  --brown-600: #906b3e;
+  --brown-700: #725033;
+  --brown-800: #624531;
+  --brown-900: #553b2e;
+  --brown-950: #301f18;
+}
+
+h1 {
+  color: var(--brown-700);
+  font-family: "Segoe UI";
+}
