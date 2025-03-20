@@ -67,6 +67,85 @@ body {
 
 #home img {
   width: 300px;
-  border-radius: 100px;
+  border-radius: 50%;
   border: 5px var(--brown--950) solid;
 }
+
+#home h3 {
+  font-family: ibm-2;
+  font-size: 2rem;
+  color: var(--brown--100);
+}
+
+#home h3 .name {
+  font-family: ibm-4;
+}
+
+#home h1 {
+  font-family: ibm-4;
+  font-size: 4rem;
+  color: var(--brown--950);
+}
+
+#home .home-links a {
+  border: 0;
+  background-color: #ede8d44d;
+  font-family: ibm-3;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+  color: var(--brown--950);
+  border: 5px solid var(--brown--950);
+  border-radius: 12px;
+}
+
+#home .home-links :nth-child(1) {
+  margin-right: 20px;
+}
+
+#home .home-links i {
+  margin: 0 !important;
+}
+
+@media (max-width: 575.98px) {
+  #home img {
+    width: 150px;
+    border: 3px solid var(--brown--950) !important;
+  }
+  #home h3 {
+    font-size: 1rem;
+  }
+  #home h1 {
+    font-size: 2rem;
+  }
+  #home a {
+    font-size: 0.8rem !important;
+    border: 3px solid var(--brown--950) !important;
+    padding: 5px 10px !important;
+  }
+}
+
+/*
+@media (max-width: 575.98px) {
+  Styles for phones
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  Styles for small tablets
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  Styles for medium tablets
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  Styles for small desktops
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  Styles for large desktops
+}
+
+@media (min-width: 1400px) {
+  Styles for very large screens
+}
+*/
