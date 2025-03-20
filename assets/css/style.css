@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ibm-2;
+}
+
 :root {
-  --brown-50: #f8f6ee;
+  --brown-050: #f8f6ee;
   --brown--100: #ede8d4;
   --brown-200: #dcd0ac;
   --brown-300: #c8b27c;
@@ -32,7 +39,34 @@
   src: url(../fonts/IBM-Bold.ttf);
 }
 
-h1 {
+/* h1 {
   font-family: ibm-4;
   color: var(--brown-700) !important;
+} */
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: url(../images/bg.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home {
+  flex-direction: column;
+}
+
+#home img {
+  width: 300px;
+  border-radius: 100px;
+  border: 5px var(--brown--950) solid;
 }
