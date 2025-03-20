@@ -106,7 +106,7 @@ body {
   margin: 0 !important;
 }
 
-#home .home-links a:hover {
+#home .home-links a:active {
   transform: translateY(2px);
 }
 
