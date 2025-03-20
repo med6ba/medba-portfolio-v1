@@ -15,25 +15,25 @@
 
 @font-face {
   font-family: ibm-1;
-  src: url(../fonts/IBMPlexMono-Regular.ttf);
+  src: url(../fonts/IBM-Regular.ttf);
 }
 
 @font-face {
   font-family: ibm-2;
-  src: url(../fonts/IBMPlexMono-Medium.ttf);
+  src: url(../fonts/IBM-Medium.ttf);
 }
 
 @font-face {
   font-family: ibm-3;
-  src: url(../fonts/IBMPlexMono-SemiBold.ttf);
+  src: url(../fonts/IBM-SemiBold.ttf);
 }
 
 @font-face {
   font-family: ibm-4;
-  src: url(../fonts/IBMPlexMono-Bold.ttf);
+  src: url(../fonts/IBM-Bold.ttf);
 }
 
 h1 {
   font-family: ibm-4;
-  color: var(--dark) !important;
+  color: var(--brown-700) !important;
 }
