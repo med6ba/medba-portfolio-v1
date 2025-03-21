@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --brown-050: #f8f6ee;
@@ -14,23 +18,12 @@
   --brown--950: #301f18;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 #home,
 #about,
 #portfolio,
 #contact {
   min-height: 100dvh;
 }
-
-/* h1 {
-  font-family: ibm-4;
-  color: var(--brown-700) !important;
-} */
 
 html {
   scrollbar-width: none;
@@ -42,7 +35,7 @@ html::-webkit-scrollbar {
 }
 
 body {
-  background-image: url(../images/bg.png);
+  background-image: url(../assets/images/bg.png);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
