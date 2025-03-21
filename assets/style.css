@@ -5,31 +5,30 @@
 }
 
 :root {
-  --brown-050: #f8f6ee;
-  --brown--100: #ede8d4;
-  --brown-200: #dcd0ac;
-  --brown-300: #c8b27c;
-  --brown-400: #b79858;
-  --brown-500: #a8854a;
-  --brown-600: #906b3e;
-  --brown-700: #725033;
-  --brown-800: #624531;
-  --brown-900: #553b2e;
-  --brown--950: #301f18;
+  --background: #0d111d;
+  --content: #eaebed;
+  --accent: #0e79b2;
+  --hover: #0b5d8a;
 }
 
 body {
-  background-image: url(../assets/images/bg.png);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: var(--background);
 }
 
 h1 {
-  font-family: "ibm plex mono";
+  font-family: "space grotesk";
   font-weight: 800;
-  color: var(--brown--950);
+  color: var(--content);
+}
+
+a {
+  color: var(--content) !important;
+  background-color: var(--accent) !important;
+  border: none !important;
+}
+
+a:hover {
+  background-color: var(--hover) !important;
 }
 
 /*
