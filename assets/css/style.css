@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: ibm-2;
-}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 
 :root {
   --brown-050: #f8f6ee;
@@ -19,24 +14,17 @@
   --brown--950: #301f18;
 }
 
-@font-face {
-  font-family: ibm-1;
-  src: url(../fonts/IBM-Regular.ttf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@font-face {
-  font-family: ibm-2;
-  src: url(../fonts/IBM-Medium.ttf);
-}
-
-@font-face {
-  font-family: ibm-3;
-  src: url(../fonts/IBM-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: ibm-4;
-  src: url(../fonts/IBM-Bold.ttf);
+#home,
+#about,
+#portfolio,
+#contact {
+  min-height: 100dvh;
 }
 
 /* h1 {
@@ -72,25 +60,29 @@ body {
 }
 
 #home h3 {
-  font-family: ibm-2;
+  font-family: "IBM Plex Mono" !important;
+  font-weight: 300;
   font-size: 2rem;
   color: var(--brown--100);
 }
 
 #home h3 .name {
-  font-family: ibm-4;
+  font-family: "IBM Plex Mono" !important;
+  font-weight: 700;
 }
 
 #home h1 {
-  font-family: ibm-4;
+  font-family: "IBM Plex Mono" !important;
   font-size: 4rem;
+  font-weight: 700;
   color: var(--brown--950);
 }
 
 #home .home-links a {
   border: 0;
   background-color: #ede8d44d;
-  font-family: ibm-3;
+  font-family: "IBM Plex Mono" !important;
+  font-weight: 600;
   padding: 5px 20px;
   font-size: 1.5rem;
   color: var(--brown--950);
@@ -107,12 +99,13 @@ body {
 }
 
 #home .home-links a:active {
-  transform: translateY(2px);
+  transform: translateY(3px);
 }
 
 @media (max-width: 575.98px) {
   #home img {
     width: 150px;
+    border: 3px var(--brown--950) solid;
   }
   #home h3 {
     font-size: 1.2rem;
@@ -125,6 +118,7 @@ body {
     text-align: center !important;
     font-size: 1rem;
     padding: 5px 10px;
+    border: 3px var(--brown--950) solid;
   }
 }
 
