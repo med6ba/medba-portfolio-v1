@@ -5,10 +5,10 @@
 }
 
 :root {
-  --background: #0d111d;
-  --content: #eaebed;
-  --accent: #0e79b2;
-  --hover: #0b5d8a;
+  --background: #100d0a;
+  --content: #f9eae1;
+  --accent: #603C23;
+  --hover: #583820;
 }
 
 body {
@@ -29,6 +29,11 @@ a {
 
 a:hover {
   background-color: var(--hover) !important;
+}
+
+img{
+  border: var(--accent) 8px solid;
+  border-radius: 50%;
 }
 
 /*
