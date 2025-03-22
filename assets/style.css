@@ -7,7 +7,7 @@
 :root {
   --background: #100d0a;
   --content: #f9eae1;
-  --accent: #603C23;
+  --accent: #603c23;
   --hover: #583820;
   --button: #f9eae1;
 }
@@ -15,13 +15,15 @@
 .light-mode {
   --background: #f9eae1;
   --content: #100d0a;
-  --accent: #603C23;
+  --accent: #603c23;
   --hover: #583820;
   --button: #f9eae1;
 }
 
 body {
   background-color: var(--background);
+  min-height: 100dvh;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 h1 {
@@ -41,7 +43,7 @@ button:hover {
   background-color: var(--hover) !important;
 }
 
-img{
+img {
   border: var(--accent) 8px solid;
   border-radius: 50%;
 }

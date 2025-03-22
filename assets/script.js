@@ -4,12 +4,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentTheme = localStorage.getItem("theme");
 
   if (currentTheme === "light") {
-      htmlElement.classList.add("light-mode");
+    htmlElement.classList.add("light-mode");
   }
 
   themeToggle.addEventListener("click", () => {
-      htmlElement.classList.toggle("light-mode");
-      const newTheme = htmlElement.classList.contains("light-mode") ? "light" : "dark";
-      localStorage.setItem("theme", newTheme);
+    htmlElement.classList.toggle("light-mode");
+    const newTheme = htmlElement.classList.contains("light-mode")
+      ? "light"
+      : "dark";
+    localStorage.setItem("theme", newTheme);
   });
 });
