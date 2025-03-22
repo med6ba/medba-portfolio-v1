@@ -1,17 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   const themeToggle = document.getElementById("theme-toggle");
+  const themeIcon = document.getElementById("theme-icon");
   const htmlElement = document.documentElement;
-  const currentTheme = localStorage.getItem("theme");
 
-  if (currentTheme === "light") {
-    htmlElement.classList.add("light-mode");
-  }
-
-  themeToggle.addEventListener("click", () => {
+  themeToggle.addEventListener("click", function () {
+    // Toggle the light mode
     htmlElement.classList.toggle("light-mode");
-    const newTheme = htmlElement.classList.contains("light-mode")
-      ? "light"
-      : "dark";
-    localStorage.setItem("theme", newTheme);
+
+    // Toggle the icon between moon and sun
+    if (htmlElement.classList.contains("light-mode")) {
+      themeIcon.classList.remove("fa-sun");
+      themeIcon.classList.add("fa-moon");
+    } else {
+      themeIcon.classList.remove("fa-moon");
+      themeIcon.classList.add("fa-sun");
+    }
   });
 });
