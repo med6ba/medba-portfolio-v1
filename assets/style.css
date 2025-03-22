@@ -9,6 +9,15 @@
   --content: #f9eae1;
   --accent: #603C23;
   --hover: #583820;
+  --button: #f9eae1;
+}
+
+.light-mode {
+  --background: #f9eae1;
+  --content: #100d0a;
+  --accent: #603C23;
+  --hover: #583820;
+  --button: #f9eae1;
 }
 
 body {
@@ -21,14 +30,14 @@ h1 {
   color: var(--content);
 }
 
-a {
+button {
   font-family: "space grotesk" !important;
-  color: var(--content) !important;
+  color: var(--button) !important;
   background-color: var(--accent) !important;
   border: none !important;
 }
 
-a:hover {
+button:hover {
   background-color: var(--hover) !important;
 }
 
