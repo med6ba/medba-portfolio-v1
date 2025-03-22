@@ -22,6 +22,7 @@ h1 {
 }
 
 a {
+  font-family: "space grotesk" !important;
   color: var(--content) !important;
   background-color: var(--accent) !important;
   border: none !important;
