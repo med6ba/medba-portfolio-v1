@@ -2,49 +2,156 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--background);
 }
 
 :root {
   --background: #100d0a;
   --content: #f9eae1;
-  --accent: #603c23;
-  --hover: #583820;
+  --accent: #6e4b3a;
+  --hover: #976851;
   --button: #f9eae1;
 }
 
 .light-mode {
   --background: #f9eae1;
   --content: #100d0a;
-  --accent: #603c23;
-  --hover: #583820;
+  --accent: #6e4b3a;
+  --hover: #976851;
   --button: #f9eae1;
 }
 
 body {
   background-color: var(--background);
-  min-height: 100dvh;
-}
-
-h1 {
   font-family: "space grotesk";
-  font-weight: 800;
-  color: var(--content);
+  color: var(--content) !important;
 }
 
-button {
+nav {
+  background-color: var(--background) !important;
+}
+
+#theme-toggle {
   font-family: "space grotesk" !important;
+  font-size: 15px !important;
   color: var(--button) !important;
   background-color: var(--accent) !important;
   border: none !important;
+  width: 40px;
+  border-radius: 500px !important;
+  padding: 2px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
 }
 
-button:hover {
+#theme-toggle:hover {
   background-color: var(--hover) !important;
 }
 
-img {
-  border: var(--accent) 8px solid;
-  border-radius: 50%;
+#hero {
+  min-height: 90dvh;
+}
+
+#hero img {
+  width: 200px;
+}
+
+#hero h1 {
+  font-size: 3rem !important;
+  text-transform: uppercase !important;
+}
+
+#hero .socials {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 18px !important;
+  margin: 15px 0 !important;
+}
+
+#hero .socials a {
+  color: var(--content) !important;
+  transition: color 0.3s !important;
+}
+
+#hero .socials a:hover {
+  color: var(--hover) !important;
+}
+
+#hero .socials svg {
+  margin-top: 3px;
+}
+
+#resume-btn {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: var(--button) !important;
+  background-color: var(--accent) !important;
+  border: none !important;
+  padding: 5px 20px !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
+}
+
+#resume-btn:hover {
+  background-color: var(--hover) !important;
+}
+
+.section-title {
+  font-size: 2.5rem !important;
+  text-transform: uppercase !important;
+  font-weight: bolder !important;
+  color: var(--accent);
+}
+
+.section-title i {
+  font-size: 2.3rem;
+}
+
+#more p,
+#plus p {
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  text-align: justify;
+  width: 98%;
+  margin: 0 auto;
+}
+
+#education img,
+#certificates img,
+#projects img {
+  width: 60px !important;
+  border-radius: 50% !important;
+  margin-right: 10px !important;
+  border: 0 !important;
+}
+
+#div-border {
+  border: 2px solid var(--content) !important;
+  background-color: var(--button) !important;
+  border-radius: 20px !important;
+}
+
+#services #div-border i {
+  color: var(--accent) !important;
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+#back-to-top {
+  color: var(--content) !important;
+}
+
+footer {
+  background-color: var(--background) !important;
+  color: var(--content) !important;
+  border: 2px solid var(--content) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /*
