@@ -62,6 +62,14 @@ nav {
   text-transform: uppercase !important;
 }
 
+#hero h2 {
+  font-size: 2rem !important;
+}
+
+#hero h3 {
+  font-size: 1.6rem !important;
+}
+
 #hero .socials {
   display: flex !important;
   justify-content: center !important;
@@ -76,10 +84,6 @@ nav {
 
 #hero .socials a:hover {
   color: var(--hover) !important;
-}
-
-#hero .socials svg {
-  margin-top: 3px;
 }
 
 #resume-btn {
@@ -155,9 +159,60 @@ footer {
 }
 
 @media (max-width: 575.98px) {
-  
-}
+  #theme-toggle {
+    font-size: 12px !important;
+  }
+  #hero img {
+    width: 150px;
+  }
 
+  #hero h1 {
+    font-size: 1.8rem !important;
+  }
+
+  #hero h2 {
+    font-size: 1.2rem !important;
+  }
+
+  #hero h3 {
+    font-size: 1rem !important;
+  }
+
+  #hero .socials {
+    font-size: 0.5rem !important;
+    gap: 10px !important;
+    margin: 10px 0 !important;
+  }
+
+  #resume-btn {
+    font-size: 0.8rem !important;
+  }
+
+  .section-title {
+    font-size: 1.6rem !important;
+  }
+
+  .section-title i {
+    font-size: 1.5rem;
+  }
+
+  #more p,
+  #plus p {
+    font-size: 0.8rem !important;
+  }
+
+  #education img,
+  #certificates img,
+  #projects img {
+    width: 50px !important;
+    border-radius: 50% !important;
+    margin-right: 5px !important;
+  }
+
+  footer p, footer button{
+    font-size: 0.8rem !important;
+  }
+}
 
 /*
 @media (max-width: 575.98px) {
