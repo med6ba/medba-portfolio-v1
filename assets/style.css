@@ -12,6 +12,7 @@
   --accent: #6e4b3a;
   --hover: #976851;
   --button: #f9eae1;
+  --sec-title: #976851;
 }
 
 .light-mode {
@@ -20,6 +21,7 @@
   --accent: #6e4b3a;
   --hover: #976851;
   --button: #f9eae1;
+  --sec-title: #6e4b3a;
 }
 
 body {
@@ -106,7 +108,7 @@ nav {
   font-size: 2.5rem !important;
   text-transform: uppercase !important;
   font-weight: bolder !important;
-  color: var(--accent);
+  color: var(--sec-title);
 }
 
 .section-title i {
