@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   themeToggle.addEventListener("click", function () {
-    // Toggle the light mode
     htmlElement.classList.toggle("light-mode");
 
     if (htmlElement.classList.contains("light-mode")) {
