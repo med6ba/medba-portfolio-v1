@@ -213,6 +213,41 @@ footer {
   footer button {
     font-size: 0.8rem !important;
   }
+
+  .education a h2 {
+    font-size: 0.9rem !important;
+  }
+  .education p {
+    font-size: 0.8rem !important;
+  }
+
+  .certificates h2 {
+    font-size: 0.9rem !important;
+  }
+  .certificates p {
+    font-size: 0.8rem !important;
+  }
+  .certificates a {
+    font-size: 0.8rem !important;
+  }
+
+  .projects h2 {
+    font-size: 0.8rem !important;
+  }
+  .projects a p {
+    font-size: 0.8rem !important;
+  }
+
+  .skills p {
+    font-size: 0.8rem !important;
+  }
+
+  .services i {
+    font-size: 1.2rem !important;
+  }
+  .services h6 {
+    font-size: 0.7rem !important;
+  }
 }
 
 /*
