@@ -179,13 +179,13 @@ footer {
   }
 
   #hero .socials {
-    font-size: 0.5rem !important;
+    font-size: 0.7rem !important;
     gap: 10px !important;
     margin: 10px 0 !important;
   }
 
   #resume-btn {
-    font-size: 0.8rem !important;
+    font-size: 0.9rem !important;
   }
 
   .section-title {
@@ -209,7 +209,8 @@ footer {
     margin-right: 5px !important;
   }
 
-  footer p, footer button{
+  footer p,
+  footer button {
     font-size: 0.8rem !important;
   }
 }
