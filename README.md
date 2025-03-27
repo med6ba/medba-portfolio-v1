@@ -6,7 +6,7 @@ Welcome to my portfolio repository! This project showcases my work as a Junior F
 
 This portfolio website includes the following sections:
 - **Home**: Includes an introduction with my name, job title, and where i'm based.
-- **About Me**: A section detailing my background, passion for front-end web development, and career journey.
+- **About Me**: A section detailing my background.
 - **Education**: A list of my academic background.
 - **Certifications**: A section for any certifications I have earned.
 - **Projects**: A grid displaying my projects with links to view more details.
