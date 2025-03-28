@@ -155,6 +155,10 @@ nav {
   color: var(--hover) !important;
 }
 
+#skills #div-border i{
+  color: var(--hover) !important;
+}
+
 h6 {
   margin-bottom: 0;
 }
