@@ -89,19 +89,17 @@ nav {
 }
 
 #resume-btn {
-  font-size: 1rem !important;
-  font-weight: 600 !important;
-  color: var(--button) !important;
-  background-color: var(--accent) !important;
+  font-size: 1.5rem !important;
+  color: var(--content) !important;
   border: none !important;
-  padding: 5px 20px !important;
-  border-radius: 8px !important;
   cursor: pointer !important;
-  transition: background-color 0.3s !important;
-}
-
-#resume-btn:hover {
-  background-color: var(--hover) !important;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px !important;
+  cursor: pointer;
+  animation: bounce 1.5s infinite !important;
 }
 
 .section-title {
@@ -133,14 +131,27 @@ nav {
   border: 0 !important;
 }
 
+#education a h2,
+#education a,
+#education p,
+#certificates h2,
+#certificates a,
+#certificates p,
+#projects h2,
+#projects a,
+#projects p {
+  color: var(--content) !important;
+}
+
 #div-border {
   border: 2px solid var(--accent) !important;
-  background-color: var(--button) !important;
+  background-color: var(--background) !important;
+  color: var(--content) !important;
   border-radius: 20px !important;
 }
 
 #services #div-border i {
-  color: var(--accent) !important;
+  color: var(--hover) !important;
 }
 
 h6 {
