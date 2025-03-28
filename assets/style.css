@@ -52,7 +52,8 @@ nav {
 }
 
 #hero {
-  min-height: 94dvh;
+  min-height: 100dvh;
+  margin-top: -50px !important;
 }
 
 #hero img {
@@ -76,7 +77,7 @@ nav {
   display: flex !important;
   justify-content: center !important;
   gap: 18px !important;
-  margin: 15px 0 !important;
+  margin: -20px !important;
 }
 
 #hero .socials a {
@@ -256,10 +257,10 @@ footer {
   }
 
   .services i {
-    font-size: 1.2rem !important;
+    font-size: 1.6rem !important;
   }
   .services h6 {
-    font-size: 0.7rem !important;
+    font-size: 0.8rem !important;
   }
 }
 
