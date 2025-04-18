@@ -53,7 +53,7 @@ nav {
 
 #hero {
   min-height: 100dvh;
-  margin-top: -50px !important;
+  /* margin-top: -50px !important; */
 }
 
 #hero img {
@@ -70,7 +70,7 @@ nav {
 }
 
 #hero h3 {
-  font-size: 1.6rem !important;
+  font-size: 1.7rem !important;
 }
 
 #hero .socials {
