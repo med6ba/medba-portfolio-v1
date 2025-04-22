@@ -1,6 +1,6 @@
 # MEDBA Portfolio
 
-Welcome to my portfolio repository! This project showcases my work as a Junior Front-End Web Developer.
+Welcome to my portfolio repository! This project showcases my work as a Junior Web Developer.
 
 ## Project Overview
 
