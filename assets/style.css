@@ -126,10 +126,12 @@ nav {
 #education img,
 #certificates img,
 #projects img {
+  background: var(--hover);
   width: 60px !important;
-  border-radius: 50% !important;
+  border-radius: 1000px !important;
   margin-right: 10px !important;
-  border: 0 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border: none !important;
 }
 
 #education a h2,
@@ -174,6 +176,16 @@ footer {
   border-bottom: none !important;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+#tech-stack img {
+  width: auto;
+  height: 50px;
+  margin: 5px;
+}
+
+#coming-soon {
+  cursor: pointer;
 }
 
 @media (max-width: 575.98px) {
@@ -265,6 +277,10 @@ footer {
   }
   .services h6 {
     font-size: 0.7rem !important;
+  }
+
+  #tech-stack img {
+    height: 30px;
   }
 }
 
