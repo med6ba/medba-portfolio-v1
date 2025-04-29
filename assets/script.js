@@ -1,31 +1,40 @@
+/*
+
 // theme toggle button
+
 document.addEventListener("DOMContentLoaded", function () {
   const themeToggle = document.getElementById("theme-toggle");
   const themeIcon = document.getElementById("theme-icon");
   const htmlElement = document.documentElement;
 
-  // Default to light mode if nothing is saved
-  const savedTheme = localStorage.getItem("theme") || "light";
+  const savedTheme = localStorage.getItem("theme");
 
   if (savedTheme === "light") {
     htmlElement.classList.add("light-mode");
-    themeIcon.classList.remove("fa-moon");
-    themeIcon.classList.add("fa-sun");
-  } else {
-    htmlElement.classList.remove("light-mode");
     themeIcon.classList.remove("fa-sun");
     themeIcon.classList.add("fa-moon");
+  } else {
+    htmlElement.classList.remove("light-mode");
+    themeIcon.classList.remove("fa-moon");
+    themeIcon.classList.add("fa-sun");
   }
 
   themeToggle.addEventListener("click", function () {
     htmlElement.classList.toggle("light-mode");
 
-    const isLight = htmlElement.classList.contains("light-mode");
-    localStorage.setItem("theme", isLight ? "light" : "dark");
-    themeIcon.classList.toggle("fa-sun", isLight);
-    themeIcon.classList.toggle("fa-moon", !isLight);
+    if (htmlElement.classList.contains("light-mode")) {
+      localStorage.setItem("theme", "light");
+      themeIcon.classList.remove("fa-sun");
+      themeIcon.classList.add("fa-moon");
+    } else {
+      localStorage.setItem("theme", "dark");
+      themeIcon.classList.remove("fa-moon");
+      themeIcon.classList.add("fa-sun");
+    }
   });
 });
+
+*/
 
 // Scroll to top button
 

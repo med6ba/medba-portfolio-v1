@@ -15,14 +15,14 @@
   --sec-title: #6e4b3a;
 }
 
-.light-mode {
+/* .light-mode {
   --background: #100d0a;
   --content: #f9eae1;
   --accent: #6e4b3a;
   --hover: #976851;
   --button: #f9eae1;
   --sec-title: #976851;
-}
+} */
 
 body {
   background-color: var(--background);
