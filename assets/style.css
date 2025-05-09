@@ -9,20 +9,10 @@
 :root {
   --background: #f9eae1;
   --content: #100d0a;
-  --accent: #6e4b3a;
-  --hover: #976851;
+  --accent: #976851;
+  --hover: #6e4b3a;
   --button: #f9eae1;
-  --sec-title: #6e4b3a;
 }
-
-/* .light-mode {
-  --background: #100d0a;
-  --content: #f9eae1;
-  --accent: #6e4b3a;
-  --hover: #976851;
-  --button: #f9eae1;
-  --sec-title: #976851;
-} */
 
 body {
   background-color: var(--background);
@@ -34,7 +24,7 @@ nav {
   background-color: var(--background) !important;
 }
 
-#theme-toggle {
+#sm-btn {
   font-family: "space grotesk" !important;
   font-size: 15px !important;
   color: var(--button) !important;
@@ -47,7 +37,7 @@ nav {
   transition: background-color 0.3s !important;
 }
 
-#theme-toggle:hover {
+#sm-btn:hover {
   background-color: var(--hover) !important;
 }
 
@@ -76,20 +66,21 @@ nav {
 #hero .socials {
   display: flex !important;
   justify-content: center !important;
-  gap: 18px !important;
+  gap: 15px !important;
   margin: -20px !important;
 }
 
 #hero .socials a {
   color: var(--content) !important;
+  font-size: 0.8rem !important;
   transition: color 0.3s !important;
 }
 
 #hero .socials a:hover {
-  color: var(--hover) !important;
+  color: var(--accent) !important;
 }
 
-#resume-btn {
+#more-btn {
   font-size: 1.5rem !important;
   color: var(--content) !important;
   border: none !important;
@@ -107,7 +98,7 @@ nav {
   font-size: 2.5rem !important;
   text-transform: uppercase !important;
   font-weight: bolder !important;
-  color: var(--sec-title);
+  color: var(--hover);
 }
 
 .section-title i {
@@ -126,7 +117,6 @@ nav {
 #education img,
 #certificates img,
 #projects img {
-  background: var(--hover);
   width: 60px !important;
   border-radius: 1000px !important;
   margin-right: 10px !important;
@@ -154,19 +144,15 @@ nav {
 }
 
 #services #div-border i {
-  color: var(--hover) !important;
+  color: var(--accent) !important;
 }
 
 #skills #div-border i {
-  color: var(--hover) !important;
+  color: var(--accent) !important;
 }
 
 h6 {
   margin-bottom: 0;
-}
-
-#back-to-top {
-  color: var(--content) !important;
 }
 
 footer {
@@ -184,12 +170,27 @@ footer {
   margin: 5px;
 }
 
-#coming-soon {
-  cursor: pointer;
+.services h6 {
+  font-weight: 700;
 }
 
-.services h6{
-  font-weight:700;
+#request-div {
+  margin-top: 50px !important;
+}
+
+#request-btn {
+  color: var(--background);
+  background-color: var(--accent);
+  padding: 8px 22px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 7px;
+  transition: 0.3s all ease;
+}
+
+#request-btn:hover {
+  background-color: var(--hover);
+  transition: 0.3s all ease;
 }
 
 @media (max-width: 575.98px) {
@@ -214,8 +215,11 @@ footer {
 
   #hero .socials {
     font-size: 0.7rem !important;
-    gap: 10px !important;
-    margin: 10px 0 !important;
+    gap: 9px !important;
+  }
+
+  #hero .socials a {
+    font-size: 0.7rem !important;
   }
 
   #resume-btn {
@@ -285,6 +289,11 @@ footer {
 
   #tech-stack img {
     height: 30px;
+  }
+
+  #request-btn {
+    font-size: 0.8rem;
+    padding: 5px 15px;
   }
 }
 
