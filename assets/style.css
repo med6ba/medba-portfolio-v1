@@ -188,6 +188,10 @@ footer {
   cursor: pointer;
 }
 
+.services h6{
+  font-weight:700;
+}
+
 @media (max-width: 575.98px) {
   #theme-toggle {
     font-size: 12px !important;
