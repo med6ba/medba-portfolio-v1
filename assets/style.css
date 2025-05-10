@@ -302,6 +302,10 @@ footer {
   #service-i {
     font-size: 1.6rem !important;
   }
+
+  #services h2 {
+    font-size: 0.8rem !important;
+  }
 }
 
 /*
