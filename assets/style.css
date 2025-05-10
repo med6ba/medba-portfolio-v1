@@ -197,8 +197,12 @@ footer {
   font-size: 2rem !important;
 }
 
-#services h2{
+#services h2 {
   font-weight: 700;
+}
+
+#coming-soon {
+  cursor: pointer;
 }
 
 @media (max-width: 575.98px) {
