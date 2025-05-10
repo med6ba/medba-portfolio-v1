@@ -193,6 +193,10 @@ footer {
   transition: 0.3s all ease;
 }
 
+#service-i {
+  font-size: 2rem !important;
+}
+
 @media (max-width: 575.98px) {
   #theme-toggle {
     font-size: 12px !important;
@@ -294,6 +298,9 @@ footer {
   #request-btn {
     font-size: 0.8rem;
     padding: 5px 15px;
+  }
+  #service-i {
+    font-size: 1.6rem !important;
   }
 }
 
