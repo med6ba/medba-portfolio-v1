@@ -16,7 +16,7 @@
 
 body {
   background-color: var(--background);
-  font-family: "space grotesk";
+  font-family: "space grotesk" !important;
   color: var(--content) !important;
 }
 
@@ -43,7 +43,7 @@ nav {
 
 #hero {
   min-height: 100dvh;
-  /* margin-top: -50px !important; */
+  margin-top: -5px !important;
 }
 
 #hero img {
