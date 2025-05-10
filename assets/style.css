@@ -197,6 +197,10 @@ footer {
   font-size: 2rem !important;
 }
 
+#services h2{
+  font-weight: 700;
+}
+
 @media (max-width: 575.98px) {
   #theme-toggle {
     font-size: 12px !important;
