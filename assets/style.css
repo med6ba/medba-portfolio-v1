@@ -205,6 +205,109 @@ footer {
   cursor: pointer;
 }
 
+.hero {
+  background: var(--accent);
+}
+
+.form-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: 2px solid var(--accent);
+  margin: 1rem 1rem;
+  margin-top: 2rem;
+}
+
+.form-label {
+  color: var(--content);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-label i {
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 15px;
+}
+
+.form-control:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(151,104,81,0.1);
+}
+
+.budget-section {
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.price-display {
+  color: var(--accent);
+}
+
+.btn-primary {
+  background: var(--accent) !important;
+  border: none;
+  border-radius: 8px;
+  color: white !important;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: var(--hover) !important;
+  color: white !important;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.form-range::-webkit-slider-thumb:active,
+.form-range::-webkit-slider-thumb:focus {
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(151,104,81,0.2);
+}
+
+.form-range::-moz-range-thumb:active,
+.form-range::-moz-range-thumb:focus {
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(151,104,81,0.2);
+}
+
+.form-range:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-range::-webkit-slider-thumb:focus {
+  outline: none !important;
+}
+
+.form-range::-moz-range-thumb:focus {
+  outline: none !important;
+}
+
 @media (max-width: 575.98px) {
   #theme-toggle {
     font-size: 12px !important;
