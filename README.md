@@ -13,11 +13,11 @@ This portfolio website includes the following sections:
 - **Tech Stack**: An overview of the tools and technologies I use.
 - **Services**: A section outlining the services I offer as a junior front-end developer.
 
-## Features
+<!-- ## Features
 
 - **Responsive Design**: The website is fully responsive and looks great on all screen sizes.
 - **Dark/Light Mode**: Users can toggle between dark and light themes for better accessibility.
-- **Multi-language Support**: The website supports both English and French, with a toggle button to switch between the languages.
+- **Multi-language Support**: The website supports both English and French, with a toggle button to switch between the languages. -->
 
 ## Technologies Used
 
