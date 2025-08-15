@@ -10,7 +10,7 @@ This portfolio website includes the following sections:
 - **Education**: A list of my academic background.
 - **Certifications**: A section for any certifications I have earned.
 - **Projects**: A grid displaying my projects with links to view more details.
-- **Tech Stack**: An overview of the tools and technologies I use.
+<!-- - **Tech Stack**: An overview of the tools and technologies I use. -->
 - **Services**: A section outlining the services I offer as a junior front-end developer.
 
 <!-- ## Features
@@ -32,7 +32,7 @@ This portfolio website includes the following sections:
 
 2. Open the project folder in your code editor.
 
-3. Open the `en.html` or `fr.html` files in a browser to view the portfolio.
+3. Open the `index.html` in a browser to view the portfolio.
 
 ## Contributing
 
