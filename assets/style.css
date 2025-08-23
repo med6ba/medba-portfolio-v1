@@ -52,7 +52,6 @@ nav {
 
 #hero h1 {
   font-size: 3rem !important;
-  text-transform: uppercase !important;
 }
 
 #hero h2 {
@@ -66,7 +65,7 @@ nav {
 #hero .socials {
   display: flex !important;
   justify-content: center !important;
-  gap: 15px !important;
+  gap: 12px !important;
   margin: -20px !important;
 }
 
@@ -117,7 +116,7 @@ nav {
 #education img,
 #certificates img,
 #projects img {
-  width: 60px !important;
+  width: 70px !important;
   border-radius: 1000px !important;
   margin-right: 10px !important;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -212,7 +211,7 @@ footer {
 .form-container {
   background: white;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border: 2px solid var(--accent);
   margin: 1rem 1rem;
   margin-top: 2rem;
@@ -237,7 +236,7 @@ footer {
 
 .form-control:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(151,104,81,0.1);
+  box-shadow: 0 0 0 3px rgba(151, 104, 81, 0.1);
 }
 
 .budget-section {
@@ -270,7 +269,7 @@ footer {
   background: var(--accent);
   cursor: pointer;
   border: 2px solid white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .form-range::-moz-range-thumb {
@@ -280,19 +279,19 @@ footer {
   background: var(--accent);
   cursor: pointer;
   border: 2px solid white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .form-range::-webkit-slider-thumb:active,
 .form-range::-webkit-slider-thumb:focus {
   background: var(--accent);
-  box-shadow: 0 0 0 3px rgba(151,104,81,0.2);
+  box-shadow: 0 0 0 3px rgba(151, 104, 81, 0.2);
 }
 
 .form-range::-moz-range-thumb:active,
 .form-range::-moz-range-thumb:focus {
   background: var(--accent);
-  box-shadow: 0 0 0 3px rgba(151,104,81,0.2);
+  box-shadow: 0 0 0 3px rgba(151, 104, 81, 0.2);
 }
 
 .form-range:focus {
@@ -304,11 +303,49 @@ footer {
   outline: none !important;
 }
 
+.service-card {
+  transition: all 0.3s ease;
+  border: 2px solid var(--accent);
+  border-radius: 20px !important;
+}
+
+.service-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent);
+}
+
+/* Icon Wrapper */
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: var(--accent) !important;
+  border: 2px var(--accent) solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: var(--background);
+  transition: all 0.3s ease;
+}
+
 .form-range::-moz-range-thumb:focus {
   outline: none !important;
 }
 
+.badge{
+  background-color: var(--accent);
+  color: var(--background) !important;
+  font-weight: 400;
+}
+
 @media (max-width: 575.98px) {
+  .icon-wrapper {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
   #theme-toggle {
     font-size: 12px !important;
   }
