@@ -334,14 +334,21 @@ footer {
   outline: none !important;
 }
 
-.badge{
+.badge {
   background-color: var(--accent);
   color: var(--background) !important;
   font-weight: 400;
 }
 
+.svg {
+  height: 25px !important;
+}
+
 @media (max-width: 575.98px) {
-  .badge{
+  .svg {
+    height: 18px !important;
+  }
+  .badge {
     font-size: 10px;
   }
   .icon-wrapper {
