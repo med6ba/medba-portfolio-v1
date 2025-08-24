@@ -10,8 +10,8 @@ This portfolio website includes the following sections:
 - **Education**: A list of my academic background.
 - **Certifications**: A section for any certifications I have earned.
 - **Projects**: A grid displaying my projects with links to view more details.
-<!-- - **Tech Stack**: An overview of the tools and technologies I use. -->
 - **Services**: A section outlining the services I offer as a junior front-end developer.
+- **Tech Stack**: An overview of the tools and technologies I use.
 
 <!-- ## Features
 
