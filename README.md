@@ -2,23 +2,6 @@
 
 Welcome to my portfolio repository! This project showcases my work as a Full-Stack Web Developer.
 
-## Project Overview
-
-This portfolio website includes the following sections:
-- **Home**: Includes an introduction with my name, job title, and where i'm based.
-- **About Me**: A section detailing my background.
-- **Education**: A list of my academic background.
-- **Certifications**: A section for any certifications I have earned.
-- **Projects**: A grid displaying my projects with links to view more details.
-- **Services**: A section outlining the services I offer as a web developer.
-- **Tech Stack**: An overview of the tools and technologies I use.
-
-<!-- ## Features
-
-- **Responsive Design**: The website is fully responsive and looks great on all screen sizes.
-- **Dark/Light Mode**: Users can toggle between dark and light themes for better accessibility.
-- **Multi-language Support**: The website supports both English and French, with a toggle button to switch between the languages. -->
-
 ## Technologies Used
 
 ![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white)
