@@ -20,7 +20,3 @@ Welcome to my portfolio repository! This project showcases my work as a Full-Sta
 ## Contributing
 
 Feel free to open issues or submit pull requests if you want to contribute to improving this portfolio.
-
-## License
-
-This project is licensed under the MIT License.
